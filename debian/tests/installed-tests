@@ -1,0 +1,21 @@
+#!/bin/sh
+# autopkgtest check: Run the installed-tests to verify glib works correctly
+# (C) 2013 Canonical Ltd.
+# Author: Iain Lane <iain.lane@canonical.com>
+
+set -eu
+
+# Disable gvfs if it happens to be installed. We want to test the built-in
+# stuff
+export GIO_USE_VFS=local
+export GIO_USE_VOLUME_MONITOR=unix
+
+export XDG_RUNTIME_DIR="$AUTOPKGTEST_TMP"
+
+printf "Running as: "; id -a
+printf "passwd entry: "; getent passwd "$(id -u)" || echo "(exit status $?)"
+printf "group entry: "; getent group "$(id -g)" || echo "(exit status $?)"
+echo "Environment:"
+env | LC_ALL=C sort -u
+
+dbus-run-session -- xvfb-run -a gnome-desktop-testing-runner glib
