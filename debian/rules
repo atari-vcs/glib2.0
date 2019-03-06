@@ -4,6 +4,9 @@ binaries := $(shell dh_listpackages)
 
 export DEB_BUILD_MAINT_OPTIONS=hardening=+bindnow
 
+# Disable tests
+export DEB_BUILD_OPTIONS=nocheck
+
 # Ensure the build aborts when there are still references to undefined symbols
 DEB_LDFLAGS_MAINT_APPEND += -Wl,-z,defs
 

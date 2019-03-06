@@ -1,3 +1,9 @@
+glib2.0 (2.58.3-1co1) apertis; urgency=medium
+
+  * Disable tests 
+
+ -- Ritesh Raj Sarraf <ritesh.sarraf@collabora.com>  Wed, 06 Mar 2019 14:43:01 +0000
+
 glib2.0 (2.58.3-1) unstable; urgency=medium
 
   * Team upload
