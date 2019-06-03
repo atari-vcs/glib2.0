@@ -1,3 +1,15 @@
+glib2.0 (2.58.3-2) unstable; urgency=medium
+
+  * Team upload
+  * d/p/gfile-Limit-access-to-files-when-copying.patch:
+    Backport patch from upstream to ensure files don't temporarily have
+    less restrictive permissions during copying
+    (Closes: #929753, CVE-2019-12450)
+  * d/watch: Only watch for 2.58.x releases now that 2.60.x is out
+  * Add cross-reference to #919777 in previous changelog entry
+
+ -- Simon McVittie <smcv@debian.org>  Mon, 03 Jun 2019 22:37:45 +0100
+
 glib2.0 (2.58.3-1) unstable; urgency=medium
 
   * Team upload
@@ -7,7 +19,7 @@ glib2.0 (2.58.3-1) unstable; urgency=medium
 
   [ Simon McVittie ]
   * New upstream release
-    - Fix crashes related to the GUnixMount API
+    - Fix crashes related to the GUnixMount API (Closes: #919777)
     - Make G_DEFINE_INTERFACE compatible with g++ -Wint-in-bool-context
     - Drop patches that were applied upstream
   * d/p/gdbusmessage-Fix-check-on-upper-limit-of-message-size.patch:
