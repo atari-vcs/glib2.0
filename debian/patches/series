@@ -1,6 +1,7 @@
 gdbusmessage-Fix-check-on-upper-limit-of-message-size.patch
 mainloop-test-Fix-race-conditions.patch
 closures-test-Avoid-timeout-on-ARM64-CPUs.patch
+gfile-Limit-access-to-files-when-copying.patch
 01_gettext-desktopfiles.patch
 81-skip-monitor-test-on-non-linux.patch
 0001-timer-test-use-volatile-for-locals.patch
