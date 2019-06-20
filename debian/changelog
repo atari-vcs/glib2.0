@@ -1,10 +1,10 @@
-glib2.0 (2.58.3-2co1) UNRELEASED; urgency=medium
+glib2.0 (2.58.3-2co1) apertis; urgency=medium
 
   * Sync with Debian Buster
   * Remaining Apertis changes:
     - Disable all tests
 
- -- Emanuele Aina <emanuele.aina@collabora.com>  Wed, 19 Jun 2019 10:16:56 +0000
+ -- Emanuele Aina <emanuele.aina@collabora.com>  Thu, 20 Jun 2019 14:54:21 +0000
 
 glib2.0 (2.58.3-2) unstable; urgency=medium
 
