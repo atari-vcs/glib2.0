@@ -1,3 +1,14 @@
+glib2.0 (2.58.3-2+deb10u1) buster; urgency=medium
+
+  * Team upload
+  * d/p/keyfile-settings-Use-tighter-permissions.patch:
+    Backport patch from upstream 2.60.0 so that the GKeyFile settings
+    backend creates ~/.config and configuration files with restrictive
+    permissions (Closes: #931234, CVE-2019-13012)
+  * d/gbp.conf: Swap branch to debian/buster
+
+ -- Simon McVittie <smcv@debian.org>  Tue, 30 Jul 2019 10:41:51 +0100
+
 glib2.0 (2.58.3-2) unstable; urgency=medium
 
   * Team upload
