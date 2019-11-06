@@ -18,6 +18,7 @@ Build-Depends: dbus <!nocheck>,
                gettext,
                gnome-pkg-tools (>= 0.11),
                gtk-doc-tools (>= 1.20),
+               libdbus-1-dev (>= 1.2.14),
                libelf-dev (>= 0.142),
                libffi-dev (>= 3.0.0),
                libgamin-dev [!linux-any] | libfam-dev [!linux-any],
@@ -41,7 +42,7 @@ Rules-Requires-Root: no
 Standards-Version: 4.3.0
 Homepage: http://www.gtk.org/
 Vcs-Browser: https://salsa.debian.org/gnome-team/glib
-Vcs-Git: https://salsa.debian.org/gnome-team/glib.git
+Vcs-Git: https://salsa.debian.org/gnome-team/glib.git -b debian/buster
 
 Package: libglib2.0-0
 Architecture: any
