@@ -1,3 +1,17 @@
+glib2.0 (2.58.3-2+deb10u2co1) apertis; urgency=medium
+
+  [ Emanuele Aina ]
+  * Sync with Debian buster glib2.0 2.58.3-2
+  * Release glib2.0 2.58.3-2co1
+
+  [ Andrew Lee (李健秋) ]
+  * Releasing apertis version 2.58.3-2+deb10u2.
+
+  [ Ritesh Raj Sarraf ]
+  * debian/apertis/component: Set to target
+
+ -- Emanuele Aina <emanuele.aina@collabora.com>  Mon, 15 Feb 2021 11:42:03 +0000
+
 glib2.0 (2.58.3-2+deb10u2) buster; urgency=medium
 
   * Team upload
