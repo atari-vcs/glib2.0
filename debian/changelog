@@ -1,6 +1,8 @@
 glib2.0 (2.66.7-1apertis0vcs0) vcs; urgency=medium
 
   * Build for atari vcs project
+  * Remaining atari changes:
+    * Don't build documentation
 
  -- Christopher Obbard <chris.obbard@collabora.com>  Fri, 14 May 2021 08:46:16 +0100
 
