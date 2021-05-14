@@ -1,3 +1,9 @@
+glib2.0 (2.66.7-1apertis0vcs0) vcs; urgency=medium
+
+  * Build for atari vcs project
+
+ -- Christopher Obbard <chris.obbard@collabora.com>  Fri, 14 May 2021 08:46:16 +0100
+
 glib2.0 (2.66.7-1apertis0) apertis; urgency=medium
 
   * Sync from Debian debian/bullseye.
